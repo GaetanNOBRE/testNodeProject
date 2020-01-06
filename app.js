@@ -8,6 +8,7 @@ const mongoose = require('mongoose')
 const globalInfo = require('./globalinfo.js')
 const sha256 = require('sha256')
 
+
 const models = require('./mongoosestructures.js')
 const Product = models[0]
 const User = models[1]
